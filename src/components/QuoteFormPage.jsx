@@ -132,8 +132,8 @@ const QuoteFormPage = () => {
       {
         formSubmitted ? ( // Mostrar el mensaje de agradecimiento si el formulario se ha enviado
           <div className="text-center">
-            <h2>¡Gracias por enviar tu consulta!</h2>
-            <p>Nos pondremos en contacto contigo pronto.</p>
+            <h2>¡Thankyou por your quote!</h2>
+            
           </div>
         ) : (
           <>
