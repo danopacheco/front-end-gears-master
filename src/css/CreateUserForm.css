@@ -1,0 +1,87 @@
+.form-container{
+  backdrop-filter: blur(8px); /* Apply the blur effect */
+    background-color: rgba(0, 0, 0, 0.8);
+}
+  .form-container .create-user-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    color: #000000;
+  }
+  
+  .form-container .create-user-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container .create-user-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-container .create-user-form .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-container .create-user-form .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-container .create-user-form .form-group button {
+    background-color: #007bff;
+    color: #000000;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-container .create-user-form .form-group button:hover {
+    background-color: #0056b3;
+  }
+    
+.close-button-container {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+  }
+  
+  .close-button {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .close-button:hover {
+    color: red;
+  }
+
+.submit-button {
+    background-color: #31363c;
+    color: #fff;
+    border: none;
+    padding: 10px 150px;
+    font-size: 16px;
+    border-radius: 11px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .submit-button:hover {
+    background-color: #fbff10;
+    color: black;
+  }
+  .login-button{
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+    color: blue;
+  }

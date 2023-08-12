@@ -1,0 +1,39 @@
+.order-section {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .header-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .header-button {
+    margin-right: 10px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .header-button.active {
+    background-color: #fbff00;
+    color: #000000;
+  }
+  
+  .order-table {
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  .order-table thead th {
+    background-color: #fbff00;
+    color: #000000;
+  }
+  
+  .order-table tbody td {
+    background-color: #f8f9fa;
+  }
+  
+  .order-table tbody tr:nth-child(even) td {
+    background-color: #e9ecef;
+  }

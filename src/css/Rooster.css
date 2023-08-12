@@ -1,0 +1,107 @@
+/* Rooster.css */
+.rooster-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .mechanics-dropdown {
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .mechanics-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 150px;
+    transition: background-color 0.2s;
+  }
+
+  .mechanics-button:hover {
+    background-color: #0056b3;
+  }
+
+  .mechanics-list {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+
+  .mechanics-list li {
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  .mechanics-list li:hover {
+    background-color: #f0f0f0;
+  }
+
+  .day-schedules {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .day-schedule {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 16px;
+    border: 1px solid #f0f0f0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .day-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .time-input {
+    width: 48%;
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  .save-changes-button {
+    background-color: #007bff; /* Color azul */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: -50px;
+    transition: background-color 0.2s;
+    float: right;
+    height: 50px;
+  }
+
+  .save-changes-button:hover {
+    background-color: #0056b3;  /* Color azul más oscuro al pasar el mouse */
+  }
+  .rooster-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }

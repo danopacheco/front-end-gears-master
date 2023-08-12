@@ -1,0 +1,28 @@
+/* Basket.css */
+.basket-container {
+    padding: 0 0px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  
+  .total-price {
+    text-align : center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .basket-info{
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+
+  .basket-center{
+  margin: 30px;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  }

@@ -1,0 +1,71 @@
+.main-screen {
+  background-image: url('https://images.unsplash.com/photo-1648485935110-5f4580282fe6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+  background-size: cover;
+  background-position: center;
+  /* max-height: 50vh; */
+  padding: 40px;
+  color: #fff;
+  filter: sepia(70%) brightness(80%);
+}
+
+.main-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 50vh; */
+}
+.main-text h1 {
+  font-size:50px ;
+}
+
+@keyframes brightAnimation {
+  0% {
+    filter: brightness(1); /* Normal brightness */
+    color: white; /* Inherit the text color */
+  }
+  50% {
+    filter: brightness(1.5); /* Increased brightness */
+    color: black; /* Change the text color to yellow */
+  }
+  100% {
+    filter: brightness(1); /* Reset to normal brightness */
+    color: white; /* Inherit the text color */
+  }
+}
+
+.main-text {
+  animation: brightAnimation 5s infinite;
+}
+.card-image{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+.card-transparent {
+  background-color: rgb(0, 0, 0);
+  border: none;
+}
+
+.card-transparent .card-body {
+  padding: 20px;
+}
+
+.card-transparent .card-title,
+.card-transparent .card-text {
+  color: #ffffff;
+}
+
+.card-transparent .btn {
+  margin-top: 10px;
+}
+.fixed-card {
+  width: 280px; /* Adjust the width as per your requirements */
+  height: 330px; /* Adjust the height as per your requirements */
+}
+
+.button-fixed {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
